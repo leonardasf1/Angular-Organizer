@@ -20,7 +20,7 @@ interface Week {
 })
 export class CalendarComponent implements OnInit {
 
-  calendar: week[]
+  calendar: Week[]
 
   constructor(private dateService: DateService) { }
 
